@@ -1,0 +1,40 @@
+:root {
+    --cafe-oscuro: #4b2e1e;
+    --cafe-medio: #8b5a2b;
+    --crema: #f5ebe0;
+}
+
+body {
+    background-color: var(--crema);
+}
+
+.navbar-cafe {
+    background-color: var(--cafe-oscuro);
+}
+
+.navbar-cafe .navbar-brand {
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-cafe {
+    background-color: var(--cafe-medio);
+    border-color: var(--cafe-medio);
+    color: #fff;
+}
+
+.btn-cafe:hover {
+    background-color: var(--cafe-oscuro);
+    border-color: var(--cafe-oscuro);
+    color: #fff;
+}
+
+.badge-cafe {
+    background-color: var(--cafe-medio);
+    color: #fff;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+}

@@ -1,0 +1,8 @@
+<h1>Productos</h1>
+<ul>
+  {% for p in productos %}
+    <li>{{ p.nombre }} — {{ p.categoria.nombre }} — ${{ p.precio }}</li>
+  {% empty %}
+    <li>No hay productos.</li>
+  {% endfor %}
+</ul>
