@@ -16,3 +16,4 @@ class ProductoForm(forms.ModelForm):
             'fecha_ingreso': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}, format='%Y-%m-%d'),
             'categoria': forms.Select(attrs={'class': 'form-select'}),
         }
+        
