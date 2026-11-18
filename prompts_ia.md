@@ -56,3 +56,5 @@ formato: dos bloques de codigo html , si hay comentarios, que sean en español
 ** asistente utilizado: Claude**
 ** resultado: plantilla para el login acorde a estetica y rgistro**
 ** modifique: nada **
+
+# al final borre la plantilla de registro, porque se me dificulto realizarlo, pero ese es el prompt original, ya que solo utilice la de login
